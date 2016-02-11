@@ -12,7 +12,8 @@ so you'll need to [download the latest release](https://maven.apache.org/downloa
 and [install](https://maven.apache.org/install.html) it to build.
 
 Right now, there are two unit tests that show basic invocation of Java's Js 
-runtime environment. These live in .../src/test/teddy/
+runtime environment. These live in `.../src/test/teddy/` and execute when
+you run `mvn clean install`.
 
 SimpleScriptTest.java shows how to load the Script Engine Manager, then the 
 JavaScript engine, and finally invoke a simple in-memory script.
